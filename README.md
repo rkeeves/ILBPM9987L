@@ -17,7 +17,7 @@ or doing some nasty things to ensure constant additional space need (like modify
 
 ## Exercises
 
-| Exercise | Solution ID |
+| Exercise | Submission ID |
 | -------- | ----------- | 
 | [Points in Figures: Rectangles, Circles, and Triangles](https://progcont.hu/progcont/100047/?pid=478) | 54fd27db-fa79-4a7d-b694-aa8b07a1dee3 |
 | [The Snail O(N)](https://progcont.hu/progcont/100007/?pid=573) | 	ba5ab9c6-4f48-48b0-bec9-0ccd1629c9e4 |
