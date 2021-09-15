@@ -5,6 +5,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringJoiner;
 
+/*
+ * https://progcont.hu/progcont/100047/?pid=478
+ */
 public class RectanglesCirclesAndTriangles {
 
     @FunctionalInterface
