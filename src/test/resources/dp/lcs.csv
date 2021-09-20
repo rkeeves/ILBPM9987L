@@ -1,0 +1,4 @@
+stringA,stringB,expectedLCS
+ABCDGH, AEDFHR, 3
+ABC, AC, 2
+"", "", 0
