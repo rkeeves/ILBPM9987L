@@ -30,7 +30,9 @@ or doing some nasty things to ensure constant additional space need (like modify
 My solutions focus purely on fun and not on efficiency.
 When a nice closed form solution arose I used it, even if it meant bad performance.
 (Even though the solution itself is O(1), if it uses sqrt, pow or something similar, 
-then those mess up the actual time complexity, and they add the method calls' constant overhead.)
+then those mess up the actual time complexity, and they add the method calls' constant overhead, 
+and they are pretty counter-productive in cases where progcont tests every case for an otherwise iteratively 
+constructible function-value-table - for instance exercise Bee.)
 
 | Code | Exercise | Submission | Source |
 | ---- |----- | ----------- | ------------- |
