@@ -1,0 +1,8 @@
+input, expected
+"aAb", "Aab"
+"abc", "abc"
+"AaBb", "AaBb"
+"az", "az"
+"Za", "aZ"
+"aAaA", "AAaa"
+"", ""

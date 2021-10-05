@@ -6,26 +6,26 @@ import org.junit.jupiter.params.provider.CsvFileSource;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class LCSDPTest {
+class LCSDPOptTest {
 
     @ParameterizedTest
     @CsvFileSource(numLinesToSkip = 1, resources = "/dp/lcs.csv")
     void test(String a, String b, int expected) {
-        int actual = LCSDP.lcs(a,b);
+        int actual = LCSDPOpt.lcs(a,b);
         assertEquals(expected, actual);
     }
 
     @ParameterizedTest
     @CsvFileSource(numLinesToSkip = 1, resources = "/dp/lcsLong.csv")
     void testLong(String a, String b, int expected) {
-        int actual = LCSDP.lcs(a,b);
+        int actual = LCSDPOpt.lcs(a,b);
         assertEquals(expected, actual);
     }
 
     @ParameterizedTest
     @CsvFileSource(numLinesToSkip = 1, resources = "/dp/lcsHard.csv")
     void testHard(String a, String b, int expected) {
-        int actual = LCSDP.lcs(a,b);
+        int actual = LCSDPOpt.lcs(a,b);
         assertEquals(expected, actual);
     }
 
@@ -34,7 +34,7 @@ class LCSDPTest {
         String a = "rzadrtdhtuevxhwrcwbaoqdzgdwbrupkurnlkqvdnzamg";
         String b = "dktgljzqkftgjmdywxpkkbcfgphgdneiyzpliqdsxwbgkeggbxsnavtimaqspvapupcdhhxffynpcuyfrq";
         int exp = 16;
-        int g = LCSDP.lcs("dbcax","abacd");
-        System.out.println(g);
+        int act = LCSDPOpt.lcs4(a,b);
+        System.out.println(act);
     }
 }
